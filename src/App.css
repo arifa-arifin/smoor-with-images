@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.right-shop {
+  position: absolute;
+  top: 75%;
+  /* left: 0; */
+  right: 2%;
+}
+
+.btn-primary {
+  position: absolute;
+  z-index: 10000000000000;
+  right: 48%;
+  top: 82%;
+}
+
+.para {
+  padding: 1rem;
+  text-align: center;
+  color: white;
+  position: absolute;
+  z-index: 10000000000000;
+  right: 25%;
+  left: 21%;
+  top: 38%;
+  bottom: 19%;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.right-para {
+  padding: 1rem;
+  text-align: right;
+  color: white;
+  position: absolute;
+  z-index: 10000000000000;
+  right: 0%;
+  left: 38%;
+  top: 38%;
+  bottom: 27%;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.right-btn {
+  position: relative;
+  z-index: 10000000000000;
+  top: 20%;
+}
+
+.countries {
+  background-color: transparent;
+  border: 0;
+  color: white;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+}
+
+.navbar.transparent-menu {
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  color: #fff;
+  background: transparent;
+}
+
+.navbar-menu {
+  color: white;
+  position: relative;
+  height: 0px;
+  z-index: 2000000000000;
+  top: 1rem;
+  width: 100%;
+}
